@@ -5,7 +5,7 @@ date: 2021-09-22T22:00:00.000Z
 description: Visioffice2 je přístroj, který spolehlivě vyměří všechny
   individuální parametry nositele brýlových obrub. Nově ho můžete vyzkoušet i u
   nás v Optice Volyně.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/visioffice-2.jpg
 tags:
   - Visioffice
