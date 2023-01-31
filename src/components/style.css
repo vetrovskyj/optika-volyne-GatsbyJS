@@ -2915,13 +2915,13 @@ nav ul li:last-child {
 .article-container {
     width: 50%;
     padding: 20px;
-    margin: 10px 20px 10px 0;
+    margin: 10px 0 10px 0;
     background-color: #EAEAEA;
     height: fit-content;
 }
 
 .article-container:nth-child(even) {
-    margin: 10px 0 10px 20px;
+    margin: 10px 20px 10px 20px;
 }
 
 .article-item {
@@ -3017,10 +3017,10 @@ nav ul li:last-child {
         width: 95%;
     }
     .article-container {
-        margin: 10px 15px 10px 0;
+        margin: 10px 0 10px 0;
     }
     .article-container:nth-child(even) {
-        margin: 10px 0 10px 15px;
+        margin: 10px 15px 10px 15px;
     }
 }
 
