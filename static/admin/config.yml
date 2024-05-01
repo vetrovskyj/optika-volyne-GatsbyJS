@@ -33,9 +33,9 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-post"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
-      - {label: "Popis", name: "description", widget: "text"}
-      - {label: "Náhled", name: "featuredpost", widget: "boolean"}
-      - {label: "Přiložený obrázek", name: "featuredimage", widget: image}
+      - {label: "Úvod", name: "description", widget: "text"}
+      - {label: "Doporučený příspěvek (barevné označení)", name: "featuredpost", widget: "boolean"}
+      - {label: "Náhledový obrázek", name: "featuredimage", widget: image}
       - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Tagy", name: "tags", widget: "list"}
  

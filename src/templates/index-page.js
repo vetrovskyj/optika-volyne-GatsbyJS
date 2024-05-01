@@ -5,6 +5,7 @@ import Helmet from "react-helmet"
 import { withPrefix } from "gatsby"
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import SaleBanner from '../components/SaleBanner'
+import ArticlesPreview from '../components/ArticlesPreview'
 
 import Layout from '../components/Layout'
 
@@ -48,6 +49,7 @@ export const IndexPageTemplate = ({
         <img alt="accessories-icon" src="../img/accessories.png" />
       </a>
     </div>
+    <ArticlesPreview />
     <div className="bottom-section">
       <section>
         <h2>{section.section_heading}</h2>

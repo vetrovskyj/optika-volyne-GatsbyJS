@@ -6,7 +6,7 @@ import './style.css'
 
 const TemplateWrapper = ({ children }) => {
   return (
-    <div>
+    <div className="site-body">
       <Helmet>
         <html lang="cs" />
         <meta charset="UTF-8" />

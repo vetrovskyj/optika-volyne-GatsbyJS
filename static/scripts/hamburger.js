@@ -11,15 +11,19 @@ window.addEventListener('DOMContentLoaded', () => {
             hamNav.className = 'ham-nav';
             header.appendChild(hamNav);
             const navList = document.createElement('div');
+            const navListLineZero = document.createElement('a');
+            navListLineZero.innerText = 'Novinky';
+            navListLineZero.setAttribute('href', '/novinky/');
             const navListLineFirst = document.createElement('a');
-            navListLineFirst.innerText = 'Produkty a služby';
+            navListLineFirst.innerText = 'Sortiment';
             navListLineFirst.setAttribute('href', '/sluzby/');
             const navListLineSecond = document.createElement('a');
             navListLineSecond.innerText = 'Reference';
             navListLineSecond.setAttribute('href', '/reference/');
             const navListLineThird = document.createElement('a');
             navListLineThird.innerText = 'Kontakt';
-            navListLineThird.setAttribute('href', '/kontakt/')
+            navListLineThird.setAttribute('href', '/kontakt/');
+            navList.appendChild(navListLineZero);
             navList.appendChild(navListLineFirst);
             navList.appendChild(navListLineSecond);
             navList.appendChild(navListLineThird);

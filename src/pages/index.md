@@ -3,9 +3,9 @@ templateKey: index-page
 disclaimer: ""
 uvodni_text:
   firstRow: Vaše
-  coloredText: ve Volyni
+  coloredText: Volyni
   secondRow: známá optika
-  thirdRow: "na náměstí "
+  thirdRow: na náměstí ve
 uvodni_foto:
   obrazek1: /img/optika-vzadu.jpg
   obrazek2: /img/kasa.jpg

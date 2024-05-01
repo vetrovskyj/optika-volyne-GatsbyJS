@@ -17,18 +17,18 @@ export const ArticlesTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="article-post-body">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
           <div>
-            <h1>
+            <h1 className="article-post-heading">
               {title}
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
+              <div className="tags">
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map((tag) => (
@@ -64,7 +64,7 @@ const ArticlePost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Optika Volyně">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -75,6 +75,7 @@ const ArticlePost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      <div className="footer-to-bottom"></div>
     </Layout>
   )
 }
@@ -93,7 +94,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "D. MMMM YYYY", locale: "cs")
         title
         description
         tags

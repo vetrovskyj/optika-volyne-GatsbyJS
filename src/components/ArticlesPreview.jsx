@@ -3,17 +3,16 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class Articles extends React.Component {
+class ArticlesPreview extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="article-list">
+      <div className="article-list articles-preview-list">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className={`article-container ${post.frontmatter.featuredpost ? 'is-featured' : ''
-              }`} key={post.id}>
+            <div className="article-container articles-preview">
               <article className="article-item">
                 <header>
                   {post.frontmatter.featuredimage ? (
@@ -28,16 +27,16 @@ class Articles extends React.Component {
                   ) : null}
                   <p className="article-title-container">
                     <Link
-                      className="article-title"
+                      className="article-title articles-preview-title"
                       to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span className="article-date">
+                    <span className="article-date articles-preview-date">
                       {post.frontmatter.date}
                     </span>
                   </p>
                 </header>
-                <p className="article-text">
+                <p className="article-text articles-preview-text">
                   {post.excerpt}
                   <br />
                   <br />
@@ -53,7 +52,7 @@ class Articles extends React.Component {
   }
 }
 
-Articles.propTypes = {
+ArticlesPreview.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -64,15 +63,16 @@ Articles.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query ArticleRollQuery {
+      query ArticlesPreviewQuery {
         allMarkdownRemark(
+          limit: 2,  
           sort: { order: DESC, fields: [frontmatter___date] },
           filter: { frontmatter: { templateKey: { eq: "article-post" } } }
         ) {
           edges {
             node {
               excerpt(
-                pruneLength: 300
+                pruneLength: 250
                 format: PLAIN
                 )
               id
@@ -97,6 +97,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <Articles data={data} count={count} />}
+    render={(data, count) => <ArticlesPreview data={data} count={count} />}
   />
 )
