@@ -2879,6 +2879,8 @@ nav ul li:last-child {
 
 .article-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 85%;
     margin: 25px auto 5px auto;
 }
@@ -2913,7 +2915,7 @@ nav ul li:last-child {
 }
 
 .article-container {
-    width: 50%;
+    width: 47%;
     padding: 20px;
     margin: 10px 0 10px 0;
     background-color: #EAEAEA;
@@ -3157,8 +3159,8 @@ nav ul li:last-child {
     margin-top: 15px;
 }
 
-.article-post-body p:not(:last-child),
-.article-post-body ul:not(:last-child) {
+.article-post-body p,
+.article-post-body ul {
     margin-bottom: 15px;
 }
 
@@ -3298,8 +3300,8 @@ nav ul li:last-child {
         padding: 0 20px 10px 0;
         margin-bottom: 15px;
     }
-    .article-post-body p:not(:last-child),
-    .article-post-body ul:not(:last-child) {
+    .article-post-body p,
+    .article-post-body ul {
         margin-bottom: 12px;
     }
     .article-post-body ul {
@@ -3348,8 +3350,8 @@ nav ul li:last-child {
         padding: 0 15px 5px 0;
         margin-bottom: 10px;
     }
-    .article-post-body p:not(:last-child),
-    .article-post-body ul:not(:last-child) {
+    .article-post-body p,
+    .article-post-body ul {
         margin-bottom: 10px;
     }
     .article-post-body ul {
