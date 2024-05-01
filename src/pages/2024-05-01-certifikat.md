@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: Získali jsme certifikát k prodeji brýlových čoček, zpomalujích růst krátkozrakosti u dětí
+title: Získali jsme certifikát k prodeji brýlových čoček Stellest™
 date: 2024-05-1T14:42:19.384Z
 description: 
 featuredpost: false
