@@ -8,6 +8,6 @@ description: V Optice Volyně nyní přijímáme platby pomocí Sodexo karty. Tu
 featuredpost: false
 featuredimage: /img/sodexo_platba_mpc_1.jpg
 ---
-![sodexo card image](/img/sodexo_platba_mpc_1.jpg)
+![](/img/sodexo_platba_mpc_1.jpg)
 
 Platby kartou Sodexo jsou bez omezení a můžete tak své benefity využít na maximum i u nás.
