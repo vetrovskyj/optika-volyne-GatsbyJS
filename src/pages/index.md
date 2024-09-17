@@ -9,7 +9,7 @@ uvodni_text:
 uvodni_foto:
   obrazek1: /img/optika-vzadu.jpg
   obrazek2: /img/pano_52.jpeg
-  obrazek3: /img/vytryna.jpg
+  obrazek3: /img/pano_56.jpeg
 section:
   section_heading: Kdo jsme?
   section_text: >
@@ -19,5 +19,5 @@ section:
     novými brýlemi.
   image1:
     alt: ilustracni foto bryli
-    image: /img/vytryna-detail.jpg
+    image: /img/screenshot_20240620_154241_instagram.jpg
 ---
