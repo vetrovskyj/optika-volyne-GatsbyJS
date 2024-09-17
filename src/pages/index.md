@@ -8,7 +8,7 @@ uvodni_text:
   thirdRow: na náměstí ve
 uvodni_foto:
   obrazek1: /img/optika-vzadu.jpg
-  obrazek2: /img/kasa.jpg
+  obrazek2: /img/pano_52.jpeg
   obrazek3: /img/vytryna.jpg
 section:
   section_heading: Kdo jsme?
