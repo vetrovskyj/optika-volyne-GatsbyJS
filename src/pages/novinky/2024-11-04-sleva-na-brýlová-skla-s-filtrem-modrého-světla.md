@@ -8,4 +8,4 @@ description: Chraňte svůj zrak před škodlivým zářením z obrazovek díky 
 featuredpost: true
 featuredimage: /img/optika-hronková-09-2023.jpg
 ---
-.
+V﻿ nabídce máme různé typy brýlových čoček, každému individuálně poradíme a doporučíme vhodná skla a obroučky dle Vašich představ a možností.
