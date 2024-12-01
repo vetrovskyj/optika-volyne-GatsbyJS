@@ -26,6 +26,9 @@ const Navbar = class extends React.Component {
             <span className="logo"><a href="/">Optika Volyně</a></span>
             <nav>
               <ul>
+              <li>
+                  <a href="/galerie/">Galerie</a>
+                </li>
                 <li>
                   <a href="/novinky/">Novinky</a>
                 </li>

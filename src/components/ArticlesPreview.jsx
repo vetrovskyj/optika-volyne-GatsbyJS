@@ -65,7 +65,7 @@ export default () => (
     query={graphql`
       query ArticlesPreviewQuery {
         allMarkdownRemark(
-          limit: 2,  
+          limit: 4,  
           sort: { order: DESC, fields: [frontmatter___date] },
           filter: { frontmatter: { templateKey: { eq: "article-post" } } }
         ) {
