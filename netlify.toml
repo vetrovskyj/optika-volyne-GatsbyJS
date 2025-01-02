@@ -3,7 +3,7 @@
   command = "npm install --legacy-peer-deps && npm run build"
   functions = "lambda"
 [build.environment]
-  NODE_VERSION = "12"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
   NPM_FLAGS = "--legacy-peer-deps"
+  NODE_VERSION = "16.20.2"
