@@ -23,10 +23,14 @@ window.addEventListener('DOMContentLoaded', () => {
             const navListLineThird = document.createElement('a');
             navListLineThird.innerText = 'Kontakt';
             navListLineThird.setAttribute('href', '/kontakt/');
+            const navListLineFourth = document.createElement('a');
+            navListLineFourth.innerText = 'Galerie';
+            navListLineFourth.setAttribute('href', '/galerie/');
             navList.appendChild(navListLineZero);
             navList.appendChild(navListLineFirst);
             navList.appendChild(navListLineSecond);
             navList.appendChild(navListLineThird);
+            navList.appendChild(navListLineFourth);
             hamNav.appendChild(navList);
         };
         hamburger.classList.toggle("change");
