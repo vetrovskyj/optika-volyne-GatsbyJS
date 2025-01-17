@@ -7,7 +7,7 @@ description: " "
 featuredpost: true
 featuredimage: /img/screenshot_20241220_081730_canva.jpg
 ---
-Nechte si u nás změřit zrak kvalifikovanými odborníky, k nákupu brýlí ZDARMA. 
+**Nechte si u nás změřit zrak kvalifikovanými odborníky, k nákupu brýlí ZDARMA.** 
 
 Rezervujte si svůj termín na telefonním čísle 604802888.
 
