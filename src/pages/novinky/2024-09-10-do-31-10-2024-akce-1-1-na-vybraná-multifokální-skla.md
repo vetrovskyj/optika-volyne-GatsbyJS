@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
-title: Prodlouženo do 31.1.2025! AKCE 1+1 na vybraná multifokální skla.
-date: 2024-12-09T15:05:39.835Z
+title: Prodlouženo do 30.4.2025! AKCE 1+1 na vybraná multifokální skla.
+date: 2025-01-25T16:58:48.729Z
 description: " "
 featuredpost: true
 featuredimage: /img/multi.jpg
