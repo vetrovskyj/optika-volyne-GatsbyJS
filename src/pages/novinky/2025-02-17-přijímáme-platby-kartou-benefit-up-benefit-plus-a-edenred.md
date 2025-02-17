@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 title: Přijímáme platby kartou Benefit Up, Benefit Plus a Edenred!
-date: 2025-02-17T18:10:55.221Z
+date: 2025-02-18T18:10:55.221Z
 description: " "
 featuredpost: true
 featuredimage: /img/benefity.png
