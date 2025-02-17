@@ -6,6 +6,8 @@ description: " "
 featuredpost: true
 featuredimage: /img/benefity.png
 ---
-P﻿latbu těmito kartami je nutné hlásit předem. Děkujeme za pochopení.
+P﻿latbu těmito kartami je nutné hlásit předem. 
+
+Děkujeme za pochopení.
 
 ![](/img/benefity.png)
