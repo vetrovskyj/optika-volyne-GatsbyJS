@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: Přijímáme platby kartou Benefit Up, Benefit Plus a Edenred!
+title: Přijímáme platby kartou Benefit Up, Benefit Plus, Edenred a Pluxee/Sodexo!
 date: 2025-02-18T18:10:55.221Z
 description: " "
 featuredpost: true
