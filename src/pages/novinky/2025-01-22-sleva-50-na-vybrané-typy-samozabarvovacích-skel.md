@@ -8,4 +8,4 @@ featuredimage: /img/kopie-návrhu-kopie-návrhu-po-830-1130-1230-1600-út-830-11
 ---
 Od 1.2.2025 se vrací oblíbená jarní akce na samozabarvovací brýlové čočky :-) 
 
-![](/img/akce-transition-2.png)
+![](/img/kopie-návrhu-kopie-návrhu-po-830-1130-1230-1600-út-830-1130-1230-1600-st-830-1130-1230-1700-čt-1230-1700-pá-830-1130-1230-1500-so-po-telefonické-domluvě.png)
