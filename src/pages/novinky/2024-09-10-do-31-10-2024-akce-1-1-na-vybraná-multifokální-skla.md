@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: Prodlouženo do 31.5.2025! AKCE 1+1 na vybraná multifokální skla.
+title: Sleva minimálně 40 % na vybraná multifokální skla!
 date: 2025-03-02T16:58:48.729Z
 description: " "
 featuredpost: true
