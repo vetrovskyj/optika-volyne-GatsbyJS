@@ -14,9 +14,10 @@ section:
   section_heading: Kdo jsme?
   section_text: >
     Jsme lokální optika ve Volyni s dlouholetou tradicí, kvalifikovaným
-    personálem a příjemným prostředím. Nabízíme široký výběr optických produktů
-    a optometrických služeb. Přijdťe se sami přesvědčit a udělejte si radost
-    novými brýlemi.
+    personálem a příjemným prostředím. Nabízíme široký výběr dioptrických i
+    slunečních brýlí, brýlových čoček, optických doplňků a optometrických
+    služeb. Přijďte se přesvědčit na vlastní oči a udělejte si radost novými
+    brýlemi a ostrým viděním na všechny vzdálenosti.
   image1:
     alt: ilustracni foto bryli
     image: /img/screenshot_20240620_154241_instagram.jpg
