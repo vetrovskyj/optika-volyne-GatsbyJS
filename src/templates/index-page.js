@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Helmet from "react-helmet"
-import { withPrefix } from "gatsby"
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import SaleBanner from '../components/SaleBanner'
-import ArticlesPreview from '../components/ArticlesPreview'
+import React, { useEffect } from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Helmet from "react-helmet";
+import { withPrefix } from "gatsby";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import SaleBanner from "../components/SaleBanner";
+import ArticlesPreview from "../components/ArticlesPreview";
 
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 
 export const IndexPageTemplate = ({
   uvodni_text,
@@ -16,17 +16,38 @@ export const IndexPageTemplate = ({
   disclaimer,
 }) => (
   <main className="homepage-main">
-    <SaleBanner><p>{disclaimer}</p></SaleBanner>
+    <SaleBanner>
+      <p>{disclaimer}</p>
+    </SaleBanner>
     <div className="slider">
       <div className="sliderphoto" onLoad="sliderFunc">
-        <img src={"../img/" + uvodni_foto.obrazek1.relativePath} className="photo" width={1920} alt="sliderphoto" />
-        <img src={"../img/" + uvodni_foto.obrazek2.relativePath} className="photo" width={1920} alt="sliderphoto" />
-        <img src={"../img/" + uvodni_foto.obrazek3.relativePath} className="photo" width={1920} alt="sliderphoto" />
+        <img
+          src={"../img/" + uvodni_foto.obrazek1.relativePath}
+          className="photo"
+          width={1920}
+          alt="sliderphoto"
+        />
+        <img
+          src={"../img/" + uvodni_foto.obrazek2.relativePath}
+          className="photo"
+          width={1920}
+          alt="sliderphoto"
+        />
+        <img
+          src={"../img/" + uvodni_foto.obrazek3.relativePath}
+          className="photo"
+          width={1920}
+          alt="sliderphoto"
+        />
       </div>
       <div className="slider-sale-and-text">
         <p className="slider-sale">{uvodni_text.firstRow}</p>
         <div className="slider-text">
-          <p className="slider-text-sale">{uvodni_text.secondRow} <br />{uvodni_text.thirdRow} <span className="slider-text-brand">{uvodni_text.coloredText}</span></p>
+          <p className="slider-text-sale">
+            {uvodni_text.secondRow} <br />
+            {uvodni_text.thirdRow}{" "}
+            <span className="slider-text-brand">{uvodni_text.coloredText}</span>
+          </p>
         </div>
         <div className="rectangles">
           <div className="rectangle" />
@@ -35,6 +56,14 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
+    <div
+      class="reservio-button-container"
+      data-text="Vytvořit rezervaci"
+      data-size="large"
+      data-color="#078788"
+      data-url="https://ocni-optika-bc-jitka-hronkova.reservio.com"
+    ></div>
+    <ArticlesPreview />
     <div className="icons">
       <a href="./sluzby/optometrie/" className="icon-container">
         <h2>Optometrie</h2>
@@ -49,13 +78,16 @@ export const IndexPageTemplate = ({
         <img alt="accessories-icon" src="../img/accessories.png" />
       </a>
     </div>
-    <ArticlesPreview />
     <div className="bottom-section">
       <section>
         <h2>{section.section_heading}</h2>
         <p>{section.section_text}</p>
+        <a className="mapy-image-cover" target="_blank" href="https://mapy.com/cs/?source=firm&id=13191595&firmBadge=1"><img src="https://mapy.com/firm-badge.svg?id=13191595&source=firm" /></a>
       </section>
-      <PreviewCompatibleImage className="section-photo" imageInfo={section.image1} />
+      <PreviewCompatibleImage
+        className="section-photo"
+        imageInfo={section.image1}
+      />
     </div>
     <div className="info-footer-container">
       <div className="info-footer">
@@ -77,15 +109,28 @@ export const IndexPageTemplate = ({
           <a href="/cookies/">Používání cookies</a>
           <a href="/autorska-prava/">Autorská práva</a>
         </div>
-        <a href="https://www.facebook.com/O%C4%8Dn%C3%AD-optika-Volyn%C4%9B-191635897936682/" target="_blank" rel="noreferrer"><img className="fb-icon" alt="facebook-icon" src="../img/facebook-icon.png" /></a>
+        <a
+          href="https://www.facebook.com/O%C4%8Dn%C3%AD-optika-Volyn%C4%9B-191635897936682/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="fb-icon"
+            alt="facebook-icon"
+            src="../img/facebook-icon.png"
+          />
+        </a>
       </div>
     </div>
     <Helmet>
-      <script src={withPrefix('./scripts/slider.js')} type="text/javascript" />
-      <script src={withPrefix('./scripts/hamburger.js')} type="text/javascript" />
+      <script src={withPrefix("./scripts/slider.js")} type="text/javascript" />
+      <script
+        src={withPrefix("./scripts/hamburger.js")}
+        type="text/javascript"
+      />
     </Helmet>
   </main>
-)
+);
 
 IndexPageTemplate.propTypes = {
   disclaimer: PropTypes.string,
@@ -105,11 +150,21 @@ IndexPageTemplate.propTypes = {
     section_text: PropTypes.string,
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
-}
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://cdn.reservio.com/widget/button-bundle.js";
+    script.async = true;
+    document.body.appendChild(script);
 
+    // Optional: Cleanup to remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <Layout>
       <Helmet
@@ -117,11 +172,12 @@ const IndexPage = ({ data }) => {
         meta={[
           {
             name: `description`,
-            content: 'Web Optiky Volyně, která prodává brýle, optické produkty a poskytuje služby péče o zrak',
+            content:
+              "Web Optiky Volyně, která prodává brýle, optické produkty a poskytuje služby péče o zrak",
           },
           {
             name: "keywords",
-            content: 'Optika, Optometrie, Volyně, Brýle, Zrak, Oči',
+            content: "Optika, Optometrie, Volyně, Brýle, Zrak, Oči",
           },
         ]}
       />
@@ -132,8 +188,8 @@ const IndexPage = ({ data }) => {
         section={frontmatter.section}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -141,9 +197,9 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -157,9 +213,15 @@ export const pageQuery = graphql`
           thirdRow
         }
         uvodni_foto {
-          obrazek1 { relativePath }
-          obrazek2 { relativePath }
-          obrazek3 { relativePath }
+          obrazek1 {
+            relativePath
+          }
+          obrazek2 {
+            relativePath
+          }
+          obrazek3 {
+            relativePath
+          }
         }
         section {
           section_heading
@@ -178,4 +240,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

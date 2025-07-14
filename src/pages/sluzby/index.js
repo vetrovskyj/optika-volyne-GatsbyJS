@@ -22,7 +22,7 @@ export const ServicesPage = ({ }) => {
       />
       <main className="products-main">
         <div className="slider-products">
-          <img className="sliderphoto-products" width={1920} alt="ilustrační foto - interier optiky" src="../../img/products-image.jpg" />
+          <img className="sliderphoto-products" width={1920} alt="ilustrační foto - interier optiky" src="../../img/pano_56.jpeg" />
           <div className="slider-sale-and-text-products">
             <h1 className="slider-sale-products">Nabídka</h1>
             <div className="slider-text-products">

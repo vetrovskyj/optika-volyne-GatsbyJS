@@ -22,7 +22,7 @@ export default class News extends React.Component {
             },
           ]} />
         <div className="slider-products">
-          <img className="sliderphoto-products" width={1920} alt="sliderphoto" src="../../img/optika-kasa.png" />
+          <img className="sliderphoto-products" width={1920} alt="sliderphoto" src="../../img/pano_52.jpeg" />
           <div className="slider-sale-and-text-products">
             <h1 className="slider-sale-products">Novinky</h1>
             <div className="slider-text-products">
