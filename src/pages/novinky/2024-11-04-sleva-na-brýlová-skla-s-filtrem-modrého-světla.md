@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: SLEVA NA BRÝLOVÁ SKLA S FILTREM MODRÉHO SVĚTLA!
+title: SLEVA 30 % NA BRÝLOVÉ ČOČKY S FILTREM MODRÉHO SVĚTLA!
 date: 2024-11-07T20:10:06.828Z
 description: " "
 featuredpost: true
