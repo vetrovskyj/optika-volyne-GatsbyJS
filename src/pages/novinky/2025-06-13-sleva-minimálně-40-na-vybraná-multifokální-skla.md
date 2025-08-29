@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
-title: Sleva minimálně 40 % na vybraná multifokální skla!
-date: 2025-06-13T15:25:16.457Z
+title: Sleva 50 % na vybraná multifokální skla!
+date: 2025-07-31T15:25:16.457Z
 description: " "
 featuredpost: true
 featuredimage: /img/multi.jpg
