@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 title: Akce 1+1 pár ZDARMA na speciální skla, která zpomalují růst dioptrií u dětí!
-date: 2025-05-01T12:30:13.634Z
+date: 2025-08-01T12:30:13.634Z
 description: " "
 featuredpost: true
 featuredimage: /img/1-1.png
