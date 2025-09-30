@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: Sleva 50 % na vybraná multifokální skla!
+title: Akce 1+1 sklo zdarma na vybraná multifokální skla!
 date: 2025-09-30T15:25:16.457Z
 description: " "
 featuredpost: true
