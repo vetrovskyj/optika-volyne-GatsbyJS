@@ -2,7 +2,7 @@
 templateKey: article-post
 title: Vánoční otevírací doba
 date: 2025-12-12T09:29:42.809Z
-description: " "
+description: https://ocni-optika-bc-jitka-hronkova.reservio.com
 featuredpost: true
 featuredimage: /img/vánoční-otevírací-doba.jpg
 ---
