@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 title: SLEVA 30 % NA BRÝLOVÉ ČOČKY S FILTREM MODRÉHO SVĚTLA!
-date: 2026-01-28T13:50:48.382Z
+date: 2026-02-02T08:16:36.431Z
 description: " "
 featuredpost: true
 featuredimage: /img/30-na-modrý-filtr.png
