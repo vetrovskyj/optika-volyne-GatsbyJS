@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 title: Rezervujte si termín měření online!
-date: 2026-03-31T13:10:04.331Z
+date: 2026-03-27T17:01:08.972Z
 description: "\n"
 featuredpost: true
 featuredimage: /img/online-rezervační-systém-spuštěn-.png
