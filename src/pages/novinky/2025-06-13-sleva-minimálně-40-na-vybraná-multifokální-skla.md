@@ -1,7 +1,7 @@
 ---
 templateKey: article-post
 title: Akce 1+1 sklo zdarma na vybraná multifokální skla!
-date: 2026-04-01T15:25:16.457Z
+date: 2026-04-04T15:25:16.457Z
 description: " "
 featuredpost: true
 featuredimage: /img/akce-multi.png
