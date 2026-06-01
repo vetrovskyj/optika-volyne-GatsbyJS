@@ -1,6 +1,6 @@
 ---
 templateKey: article-post
-title: Akce 1+1 sklo zdarma na vybraná multifokální skla!
+title: Vybraná multifokální skla nyní v akci 1+1 sklo ZDARMA!
 date: 2026-04-04T15:25:16.457Z
 description: " "
 featuredpost: true
