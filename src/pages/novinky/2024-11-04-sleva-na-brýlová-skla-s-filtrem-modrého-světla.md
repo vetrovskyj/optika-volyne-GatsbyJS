@@ -1,12 +1,12 @@
 ---
 templateKey: article-post
-title: SLEVA 30 % NA BRÝLOVÉ ČOČKY S FILTREM MODRÉHO SVĚTLA!
+title: SLEVA 25 % NA BRÝLOVÉ ČOČKY S FILTREM MODRÉHO SVĚTLA!
 date: 2026-03-31T15:34:13.957Z
 description: " "
 featuredpost: true
-featuredimage: /img/30-na-modrý-filtr.png
+featuredimage: /img/25-na-modrý-filtr.png
 ---
-![](/img/30-na-modrý-filtr.png)
+![](/img/25-na-modrý-filtr.png)
 
 V﻿ nabídce máme různé typy brýlových čoček, každému individuálně poradíme a doporučíme vhodná skla a obroučky dle Vašich představ a možností.
 
